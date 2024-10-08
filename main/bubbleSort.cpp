@@ -17,6 +17,13 @@ namespace bubbleSort{
                 cout << list[i] << " is smaller, no swap." << endl;
                 }
             }
+            wall--;
+
         }
+    cout << "sorted list: ";
+    for(int i = 0; i < size; i++){
+        cout << list[i] << " ";
+    }
+        
     }
 }
