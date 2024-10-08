@@ -1,4 +1,5 @@
 #include <iostream>
+#include "./bubbleSort.hpp"
 
 using namespace std;
 
@@ -20,10 +21,10 @@ namespace bubbleSort{
             wall--;
 
         }
-    cout << "sorted list: ";
-    for(int i = 0; i < size; i++){
-        cout << list[i] << " ";
-    }
+        cout << "sorted list: ";
+        for(int i = 0; i < size; i++){
+            cout << list[i] << " ";
+        }
         
     }
 }
